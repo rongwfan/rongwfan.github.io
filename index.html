@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rong Fan</title>
+    //<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="js/script.js"></script>
+</head>
+
+<body id="body">
+        <div class="pimg1">
+            <div class="wrapper">
+                <header class="header">
+                
+               
+              
+<script>
+                html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.65em;
+    color: #666;
+}
+
+@@media (max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll;
+    }
+}
+
+.header{
+    /* height: 44px; */
+    line-height: 44px;
+    background-color: transparent;
+    /* opacity: 0.80; */
+    padding: 25px;
+}
+
+.logo h1{
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    color: white;
+    font-size: 16px;
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 32px;
+    right: 44px;
+    background-color: transparent;
+}
+
+.navbar a{
+    float: right;
+    color: white;
+    display: block;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    /* padding: 0 0.5em;
+    margin: 0 0 0 0.75em; */
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+}
+
+.side-nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a{
+    padding: 10px 10px 10px 35px;
+    text-decoration: none;
+    font-size: inherit;
+    color: #666;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.side-nav .btn-close{
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* .pimg1{
+    background-image: url("https://images.unsplash.com/photo-1518665750801-883c188a660d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7e20098b38a7b4d3c66be9ed44a43a0f&auto=format&fit=crop&w=967&q=80");
+    min-height: 100%;
+} */
+
+/* .pimg1{
+    background-image: url("https://images.unsplash.com/photo-1494571316879-64331bde40a0?auto=format&fit=crop&w=1028&q=80");
+    min-height: 100%;
+} */
+
+.pimg1{
+    background-image: url("https://images.unsplash.com/photo-1432821579285-1b649e5b1ce3?auto=format&fit=crop&w=1050&q=80");
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url("https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=crop&w=1050&q=80");
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url("https://images.unsplash.com/photo-1510423579098-f47bf52b6764?auto=format&fit=crop&w=1052&q=80");
+    min-height: 400px;
+}
+
+.pimg4{
+    background-image: url("https://images.unsplash.com/photo-1432821579285-1b649e5b1ce3?auto=format&fit=crop&w=1050&q=80");
+    min-height: 300px;
+}
+
+.element-pimg1{
+    background-image: url("https://images.unsplash.com/photo-1432821579285-1b649e5b1ce3?auto=format&fit=crop&w=1050&q=80");
+    min-height: 300px;
+    opacity: 0.9;
+}
+
+.ptext h1, p{
+    transition: transform 1s ease;
+    transition-duration: 1s, 1s;
+    transform: translateY(0);
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: 666;
+}
+
+.section-light h2{
+    display: inline-block;
+    border-bottom: solid 2px;
+    margin-bottom: 1em;
+    padding: 0.2em;
+}
+
+.todoist2{
+    display: flex;
+    border-bottom: solid #eaeaea 2px;
+    padding-bottom: 4em;
+}
+
+.todoist2 img {
+    max-width: 450px;
+    max-height: 300px;
+    border-radius: 4px;
+    padding-left: 4em;
+}
+
+.todoist2-content{
+    text-align: left;
+}
+
+.todoist2-content h2{
+    padding-left: 4.2em;
+    border-bottom: none;
+}
+
+.TRLApp{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4em 0 4em 0;
+    border-bottom: solid #eaeaea 2px;
+}
+
+.TRLApp-image img{
+    max-width: 450px;
+    max-height: 300px;
+    border-radius: 4px;
+    padding-right: 4em;
+}
+
+.TRLApp-content {
+    text-align: left;
+    display: block;
+}
+
+.TRLApp-content h2{
+    padding-left: 4.2em;
+    border-bottom: none;
+}
+
+.application{
+    display: flex;
+    padding-bottom: 4em;
+    padding-top: 4em;
+}
+
+.application img{
+    max-width: 450px;
+    max-height: 300px;
+    border-radius: 4px;
+    padding-left: 4em;
+}
+
+.application-content{
+    text-align: left;
+}
+
+.application-content h2{
+    padding-left: 4.2em;
+    border-bottom: none;
+}
+
+.section-dark h2{
+    display: inline-block;
+    border-bottom: solid 2px;
+    margin-bottom: 1em;
+    padding: 0.2em;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+    padding: 4em;
+}
+
+.ptext{
+    display: block;
+    top: 100%;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.border h1{
+    display: inline-block;
+    border-bottom: solid 2px;
+    margin-bottom: 1em;
+    padding-bottom: 0.2em;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    /*margin: 0 0 1em 0;*/
+    text-transform: uppercase;
+
+}
+
+.ptext .border{
+    background-color: transparent;
+    color: #fff;
+    /*padding: 20px;*/
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    min-width: 19em;
+    height: 3.75em;
+    line-height: 3.75em;
+    font-size: 85%;
+    letter-spacing: 0.2em;
+    padding: 15px 80px;
+    border: solid white 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #101010;
+    color: white;
+    border: solid #101010 1.5px;
+}
+
+p{
+    display: block;
+    font-family: "Roboto-light";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.65;
+    padding-bottom: 2em;
+    margin: 0 6em;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.feature{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 2em 2em;
+}
+
+.feature i{
+    font-size: 50px;
+    padding-top: 1em;
+}
+
+.feature-item{
+    width: 450px;
+    height: 300px;
+    background-color: transparent;
+    border-color: #eaeaea;
+    border: solid 2px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 80%;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 1em;
+}
+
+.feature h3{
+    padding: 1em 0 0 0;
+}
+
+.feature p{
+    font-size: 100%;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.section-dark a{
+    border-bottom: solid 1px;
+}
+
+.ptext{
+    color: white;
+}
+
+.copyright p{
+    font-size: 95%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding-left: 47%;
+}
+
+ul li a{
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 20px;
+    border: transparent;
+    margin: 0 0.2em;
+}
+
+.copyright{
+    font-size: 90%;
+}
+
+
+
+</script>
+                        <div class="logo">
+                            <h1>
+                                <a href="index.html">                        <strong>Rong</strong> Fan
+                                </a>
+                            </h1>
+                        </div>
+
+                        <nav class="navbar">
+                            <span class="open-slide">
+                                <a href="#" onclick="openSlideMenu()">
+                                    menu<i class="fa fa-bars" aria-hidden="true"></i>
+                                </a>
+                            </span>
+                        </nav>
+
+                            <div id="side-menu" class="side-nav">
+                                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                                <a href="index.html">Home</a>
+                                <a href="blog.html">Blog</a>
+                                <a href="gallery.html">Gallery</a>
+                            </div>
+                    </header>
+            </div>
+
+            <div id ="ptext" class="ptext">
+                <span class="border">
+                <h1>Welcome</h1>
+                <p>
+                    My name is Rong Fan. I'm a software engineer and web developer. <br />
+                    Browse my projects, or find out more about me below.
+                </p>
+                <a class="btn" href="Resume.jpg">View Resume</a>
+            </div>
+        </div>
+
+    <section class="section section-light">
+        <div class="todoist2">
+            <img src="https://images.unsplash.com/photo-1496389429868-ef51f7140b1e?auto=format&fit=crop&w=1029&q=80">
+
+            <div class="todoist2-content">
+            <h2>Todoist2</h2>
+            <p>
+            Todoist2 is a productivity desktop application that helps users to generate a to do list. The application features user account function, today function, and complete tasks.
+            <br />
+            Created wtih Java and JavaFX.
+            <br /><br />
+            <a href="https://github.com/">Github</a>
+            </p>
+            </div>
+
+        </div>
+
+        <div class="TRLApp">
+            <div class="TRLApp-image">
+            <img src="https://images.unsplash.com/photo-1496389429868-ef51f7140b1e?auto=format&fit=crop&w=1029&q=80">
+            </div>
+
+            <div class="TRLApp-content">
+            <h2>TRLApp</h2>
+            <p>
+                Textbook Rental Library (TRL) is a desktop Java app that provides TRL circulation functionality, namely, checking a given copy out to a patron, then checking it back in.
+            <br /><br />
+            <a href="https://github.com/wasabirongfan/TRLApp">Github</a>
+            </p>
+
+            </div>
+        </div>
+
+        <div class="application">
+            <img src="https://images.unsplash.com/photo-1496389429868-ef51f7140b1e?auto=format&fit=crop&w=1029&q=80">
+
+            <div class="application-content">
+            <h2>GeoStore Application</h2>
+            <p>
+            GeoStore is an iOS application that helps user localize and visualize items inside a store. The project was presented as a team development in class.
+            <br />
+            Created wtih UML diagram, sequence diagram, Java, and Sketch.
+            <br /><br />
+            <a href="https://github.com/">Github</a>
+            </p>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+        <div class="pimg2">
+            <div class="ptext">
+                <span class="border">
+            </span>
+            </div>
+        </div>
+
+        <section class="section section-dark">
+            <h2>Skills and Technologies</h2>
+
+            <div class="feature">
+                <div class="feature-item">
+                    <i class="fa fa-television" aria-hidden="true"></i>
+                    <h3>
+                        Frontend
+                    </h3>
+                    <p>
+                        Javascript, html/css/sass
+                    </p>
+                </div>
+                <div class="feature-item">
+                    <i class="fa fa-database" aria-hidden="true"></i>
+                    <h3>
+                        Backend
+                    </h3>
+                    <p>
+                        Python<br />
+                    </p>
+                </div>
+                <div class="feature-item">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <h3>
+                        IOS development
+                    </h3>
+                    <p>
+                        Xcode<br />
+                    </p>
+                </div>
+                <div class="feature-item">
+                    <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                    <h3>
+                        Design
+                    </h3>
+                    <p>
+                        Adobe Creative Suite<br />
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="pimg3">
+            <div class="ptext">
+                <span class="border">
+            </span>
+            </div>
+        </div>
+
+        <section class="section section-light">
+            <h2>About Me</h2>
+            <p>
+                I'm a graduate student at the University of St.Thomas, pursuing a master degree in software engineering.
+                <br />
+                For the past several years, I've been working towards achieving my professional dream of becoming both a coder and desginer.
+                <br />
+                Now, I'm looking for a job as a software enginner.
+                <br /><br />
+                I'm also passionate about serving community, and take some time each year to volunteer.
+                <br /><br />
+                If you would like to find out more about my qualifications, or would just like to chat, check out my resume or send me an email.
+                <br /><br />
+                Thanks for checking out my portfolio!
+
+            </p>
+        </section>
+
+        <section class="section section-dark">
+            <h2>Get Connected</h2>
+            <p>
+                Email me at:
+                <a href="https://mailto:fanwasabi@gmail.com">fanwasabi@gmail.com</a>
+            </p>
+        </section>
+
+        <div class="pimg4">
+            <div class="ptext">
+
+                <div class="icons">
+                        <ul>
+                            <li>
+                                <a href="https://github.com/wasabirongfan">
+                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/wasabifan/">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://mailto:fanwasabi@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+
+                    <div class="copyright">
+                        <p>© Rong Fan & Made in MN</p>
+                    </div>
+
+            </div>
+        </div>
+</body>
+</html>
