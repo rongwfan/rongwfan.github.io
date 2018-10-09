@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rong Fan</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="blog_header">
+        <header class="header">
+                <div class="logo">
+                    <h1>
+                        <a href="index.html">                        <strong>Rong</strong> Fan
+                        </a>
+                    </h1>
+                </div>
+
+                <nav class="navbar">
+                    <span class="open-slide">
+                        <a href="#" onclick="openSlideMenu()">
+                            menu<i class="fa fa-bars" aria-hidden="true"></i>
+                        </a>
+                    </span>
+                </nav>
+
+                    <div id="side-menu" class="side-nav">
+                        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                        <a href="index.html">Home</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+            </header>
+        </div>
+
+    <div class="gallery">
+        <div class="gallery_title">
+            <h2>Rong's Gallery</h2>
+        </div>
+
+        <div class="gallery_row">
+
+            <div class="gallery_column">
+            <img id="img1" src="https://farm1.staticflickr.com/345/31390095364_300269cba1_k.jpg" alt="" width="100%" onclick="openSlideShow1()">
+            <img id="img2" src="https://farm6.staticflickr.com/5713/31295433572_64d51bcdf8_k.jpg" alt="" width="100%" onclick="openSlideShow2()">
+            <img id="img3"src="https://farm5.staticflickr.com/4189/33927005403_faed8d6338_k.jpg" alt="" width="100%" onclick="openSlideShow3()">
+            <img id="img4"src="https://farm5.staticflickr.com/4359/37086522555_dada09753d_k.jpg" alt="" width="100%" onclick="openSlideShow4()">
+        </div>
+
+        <div class="gallery_column">
+            <img id="img5"src="https://farm3.staticflickr.com/2924/33038419190_a2206ece50_k.jpg" alt="" width="100%" onclick="openSlideShow5()">
+            <img id="img6" src="https://farm4.staticflickr.com/3856/33280938121_48aaa23769_k.jpg" alt="" width="100%" onclick="openSlideShow6()">
+            <img id="img7" src="https://farm5.staticflickr.com/4273/34183482373_e94c0ee1a1_k.jpg" alt="" width="100%" onclick="openSlideShow7()">
+            <img id="img8" src="https://farm5.staticflickr.com/4785/39098254890_fa8e4e232f_k.jpg" alt="" width="100%" onclick="openSlideShow8()">
+
+        </div>
+
+        </div>
+    </div>
+
+    <div id= "gallery_modal" class="gallery_modal">
+        <span class="gallery_close" onclick="closeSlideShow()">&times;</span>
+        <img class="gallery_modal-content" id="gallery_img">
+    </div>
+
+    <div class="blog_footer">
+            <div class="icons">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/wasabirongfan">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/wasabifan/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                        <li>
+                            <a href="https://mailto:fanwasabi@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+
+                <div class="copyright">
+                    <p>© Rong Fan & Made in MN</p>
+                </div>
+
+        </div>
+
+</body>
+</html>
