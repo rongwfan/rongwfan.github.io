@@ -125,9 +125,14 @@ html, body{
     min-height: 400px;
 }
 
-.pimg3{
+/* .pimg3{
     background-image: url("https://images.unsplash.com/photo-1510423579098-f47bf52b6764?auto=format&fit=crop&w=1052&q=80");
     min-height: 400px;
+} */
+
+.pimg3{
+  background-image: url("https://farm2.staticflickr.com/1980/45315844131_d91919518b_k.jpg");
+  min-height: 400px;
 }
 
 .pimg4{
